@@ -1,0 +1,104 @@
+{
+    "type": "force",
+    "categories": [
+        {
+            "name": "HTMLElement",
+            "keyword": {},
+            "base": "HTMLElement"
+        },
+        {
+            "name": "WebGL",
+            "keyword": {},
+            "base": "WebGLRenderingContext"
+        },
+        {
+            "name": "SVG",
+            "keyword": {},
+            "base": "SVGElement"
+        },
+        {
+            "name": "CSS",
+            "keyword": {},
+            "base": "CSSRule"
+        },
+        {
+            "name": "Other",
+            "keyword": {}
+        }
+    ],
+    "nodes": [
+        {
+            "name": "MediaStreamAudioDestinationNode",
+            "value": 1,
+            "category": 0
+        },
+        {
+            "name": "MediaStreamAudioSourceNode",
+            "value": 1,
+            "category": 0
+        },
+        {
+            "name": "OscillatorNode",
+            "value": 1,
+            "category": 0
+        },
+        {
+            "name": "PannerNode",
+            "value": 1,
+            "category": 1
+        },
+        {
+            "name": "ScriptProcessorNode",
+            "value": 1,
+            "category": 1
+        },
+        {
+            "name": "WaveShaperNode",
+            "value": 1,
+            "category": 2
+        },
+        {
+            "name": "WaveTable",
+            "value": 1,
+            "category": 2
+        },
+        {
+            "name": "CanvasRenderingContext",
+            "value": 1,
+            "category": 3
+        },
+        {
+            "name": "HTMLCanvasElement",
+            "value": 1,
+            "category": 3
+        },
+        {
+            "name": "CanvasRenderingContext2D",
+            "value": 1,
+            "category": 4
+        },
+        {
+            "name": "ImageData",
+            "value": 1,
+            "category": 4
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1
+        },
+        {
+            "source": 0,
+            "target": 2
+        },
+        {
+            "source": 0,
+            "target": 3
+        },
+        {
+            "source": 1,
+            "target": 2
+        }
+    ]
+}
